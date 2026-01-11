@@ -22,16 +22,16 @@ body {
 }
 
 .landing-container:hover {
-  box-shadow: 0 0 30px rgba(255,255,255,0.5); /* glow intensifies on hover */
+  box-shadow: 0 0 50px rgba(255,255,255,0.5); /* glow intensifies on hover */
 }
 
 /* Profile image */
 .profile-img {
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   border: 3px solid #fff;
 }
 
@@ -78,4 +78,5 @@ p {
   transform: translateY(-3px);
   box-shadow: 0 8px 20px rgba(255,255,255,0.2);
 }
+
 
