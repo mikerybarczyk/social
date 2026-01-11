@@ -1,0 +1,81 @@
+/* Body styles */
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background: #000; /* Black background */
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Landing container with glowing border */
+.landing-container {
+  text-align: center;
+  padding: 40px 20px;
+  border: 2px solid #fff;
+  background-color: #310404;
+  border-radius: 20px;
+  max-width: 350px;
+  box-shadow: 0 0 15px rgba(255,255,255,0.2); /* subtle glow */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.landing-container:hover {
+  box-shadow: 0 0 30px rgba(255,255,255,0.5); /* glow intensifies on hover */
+}
+
+/* Profile image */
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1px;
+  border: 3px solid #fff;
+}
+
+/* Heading and paragraph */
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+p {
+  color: #aaa;
+  margin-bottom: 30px;
+  font-size: 1rem;
+}
+
+/* Buttons */
+.link-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  padding: 15px;
+  margin: 10px auto;
+  border-radius: 50px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.link-button i {
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+/* Button colors */
+.linkedin { background: #0A66C2; }
+.email { background: #FF6B6B; }
+
+/* Button hover effect */
+.link-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(255,255,255,0.2);
+}
